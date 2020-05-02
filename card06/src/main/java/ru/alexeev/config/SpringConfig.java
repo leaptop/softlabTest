@@ -14,7 +14,8 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration//annotation indicates that a class declares one or more @Bean methods and may be processed by the
 // Spring container to generate bean definitions and service requests for those beans at runtime.
-@ComponentScan("ru.alexeev")// передаём информацию о том, где лежат наши компоненты и контроллер
+@ComponentScan("ru.alexeev")// передаём информацию о том, где лежат наши компоненты и контроллер. При этом сканируется
+//не только данная папка, но и все лежащие в ней папки.
 @EnableWebMvc// соответствует тегу <mvc:annotation-driven/> из applicationContextMVC.xml
 public class SpringConfig implements WebMvcConfigurer {//WebMvcConfigurer реализуется, когда мы хотим настроить Spring MVC под себя
     //в данном случае мы хотим вместо стандартного шаблонизатора использовать шаблонизатор Thymeleaf.  В третьем методе мы его задаём.
