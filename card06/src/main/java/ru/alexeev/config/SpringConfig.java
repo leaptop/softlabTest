@@ -15,15 +15,16 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 @Configuration//annotation indicates that a class declares one or more @Bean methods and may be processed by the
 // Spring container to generate bean definitions and service requests for those beans at runtime.
 @ComponentScan("ru.alexeev")// передаём информацию о том, где лежат наши компоненты и контроллер. При этом сканируется
-//не только данная папка, но и все лежащие в ней папки.
+//не только данная папка, но и все вложенные папки.
 @EnableWebMvc// соответствует тегу <mvc:annotation-driven/> из applicationContextMVC.xml
-public class SpringConfig implements WebMvcConfigurer {//WebMvcConfigurer реализуется, когда мы хотим настроить Spring MVC под себя
-    //в данном случае мы хотим вместо стандартного шаблонизатора использовать шаблонизатор Thymeleaf.  В третьем методе мы его задаём.
+public class SpringConfig implements WebMvcConfigurer {//WebMvcConfigurer реализуется, когда мы хотим настроить Spring
+    // MVC под себя. В данном случае мы хотим вместо стандартного шаблонизатора использовать шаблонизатор Thymeleaf.
+    // В третьем методе мы его задаём.
 
     private final ApplicationContext applicationContext;
 
-    @Autowired//с помощью этой аннотации внедряем applicationContext(Spring это сделает за нас). Он будет использован в бине templateReslover
-    //для настройки нашего ThymeLeaf
+    @Autowired//с помощью этой аннотации внедряем applicationContext(Spring это сделает за нас). Он будет
+    // использован в бине templateReslover для настройки нашего ThymeLeaf
     public SpringConfig(ApplicationContext applicationContext) {
         this.applicationContext = applicationContext;
     }
@@ -75,8 +76,9 @@ public class SpringConfig implements WebMvcConfigurer {//WebMvcConfigurer реа
     <!--Создаю три бина, чтобы работал шаблонизатор Thymeleaf-->
     <bean id="templateResolver" class="org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver">
         <property name="prefix" value="/WEB-INF/views/"/>
-        <property name="suffix" value=".html"/><!-- .html отвечает за то, какие расширения будут у наших файлов представлений. В итоге
-        можно будет не указывать расширение и полный путь до представления(указано с помощью /WEB-INF/views/-->
+        <property name="suffix" value=".html"/><!-- .html отвечает за то, какие расширения будут у наших файлов
+        представлений. В итоге можно будет не указывать расширение и полный путь до
+        представления(указано с помощью /WEB-INF/views/-->
     </bean>
 
     <bean id="templateEngine" class="org.thymeleaf.spring5.SpringTemplateEngine">
