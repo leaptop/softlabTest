@@ -98,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/alexeev/accessingdatamysql/AccessingDataMysqlApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#422#423#0" expanded="true" />
@@ -112,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/target/card06/WEB-INF/classes/ru/alexeev/accessingdatamysql/AccessingDataMysqlApplication.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#514#0" expanded="true" />
               </folding>
@@ -124,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/alexeev/accessingdatamysql/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -399,16 +399,15 @@
       <option name="presentableId" value="Default" />
       <updated>1588416228076</updated>
       <workItem from="1588416229228" duration="623000" />
-      <workItem from="1588416930911" duration="27296000" />
+      <workItem from="1588416930911" duration="28030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27919000" />
+    <option name="totallyTimeSpent" value="28653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1618" height="836" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25288832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -605,7 +604,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/alexeev/accessingdatamysql/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -647,7 +646,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/alexeev/accessingdatamysql/AccessingDataMysqlApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#422#423#0" expanded="true" />
@@ -659,7 +658,7 @@
     <entry file="file://$PROJECT_DIR$/target/card06/WEB-INF/classes/ru/alexeev/accessingdatamysql/AccessingDataMysqlApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#514#0" expanded="true" />
           </folding>
